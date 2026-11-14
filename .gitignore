@@ -1,0 +1,18 @@
+# Credentials & API keys - NEVER upload these
+credentials/
+config.yaml
+*.json
+
+# Output files
+output/
+logs/
+ffmpeg/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+*.tmp
+temp_*
