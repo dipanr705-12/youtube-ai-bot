@@ -1,0 +1,50 @@
+# ============================================================
+# YouTube AI Bot - Example Configuration
+# ============================================================
+# Copy this file to config.yaml and fill in your API keys.
+
+upload_time: "09:00"
+timezone: "Asia/Kolkata"
+channel_niche: "all"
+video_length_seconds: 58
+video_format: "shorts"
+max_videos_per_day: 1
+
+niches:
+  - "AI technology"
+  - "finance cryptocurrency"
+  - "motivation self improvement"
+  - "sports highlights"
+  - "world news"
+  - "entertainment celebrity"
+
+content_mode: "ai_first"
+
+# --- Fill in your API keys ---
+gemini_api_key: "YOUR_GEMINI_API_KEY"
+pexels_api_key: ""
+pixabay_api_key: "YOUR_PIXABAY_API_KEY"
+did_api_key: "YOUR_DID_API_KEY"
+elevenlabs_api_key: "YOUR_ELEVENLABS_KEY"
+
+reddit_client_id: ""
+reddit_secret: ""
+reddit_user_agent: "YouTubeAIBot/1.0"
+
+youtube_credentials: "credentials/client_secret.json"
+youtube_token: "credentials/token.json"
+
+video_resolution: [1080, 1920]
+fps: 30
+audio_volume: 0.3
+caption_font_size: 55
+caption_color: "white"
+caption_bg_color: "black"
+
+channel_name: "AI Daily Trends"
+intro_clip: ""
+outro_clip: ""
+watermark_text: "@AIDailyTrends"
+
+log_file: "logs/daily_log.txt"
+log_level: "INFO"
