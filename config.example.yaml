@@ -3,7 +3,7 @@
 # ============================================================
 # Copy this file to config.yaml and fill in your API keys.
 
-upload_time: "09:00"
+upload_time: "10:30"
 timezone: "Asia/Kolkata"
 channel_niche: "all"
 video_length_seconds: 58
