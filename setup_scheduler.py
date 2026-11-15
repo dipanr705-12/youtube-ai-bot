@@ -33,7 +33,7 @@ def create_task():
         "/tn", TASK_NAME,
         "/tr", bat_cmd,
         "/sc", "DAILY",
-        "/st", "09:00",         # 9:00 AM
+        "/st", "10:30",         # 10:30 AM
         "/f",                    # Force overwrite if exists
         "/rl", "HIGHEST",        # Run with highest privileges
     ]
@@ -46,7 +46,7 @@ def create_task():
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode == 0:
         print(f"✅ Scheduled task '{TASK_NAME}' created successfully!")
-        print(f"   The bot will run every day at 09:00 AM automatically.")
+        print(f"   The bot will run every day at 10:30 AM automatically.")
         print()
         print("To verify: Open Task Scheduler → look for YouTubeAIBot_DailyUpload")
         print("To test now: schtasks /run /tn YouTubeAIBot_DailyUpload")
