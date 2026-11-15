@@ -4,7 +4,7 @@ Automatically finds trending topics, downloads video clips, edits them into YouT
 
 ## 🔥 What It Does
 
-Every day at 9:00 AM (configurable):
+Every day at 10:30 AM (configurable):
 1. 🔍 Finds today's trending topic (Google Trends / YouTube)
 2. 📥 Downloads relevant video clips (Pixabay API)
 3. ✂️ Edits clips into a vertical YouTube Short (1080x1920)
