@@ -8,7 +8,7 @@ Autonomous YouTube Shorts uploader:
 - Uploads to YouTube at 9:00 AM IST daily
 
 Usage:
-  python main.py           # Start scheduler (runs daily at 9:00 AM)
+  python main.py           # Start scheduler (runs daily at 10:30 AM)
   python main.py --now     # Run pipeline immediately (test mode)
   python main.py --auth    # Set up YouTube OAuth2
 """
