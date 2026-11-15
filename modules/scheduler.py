@@ -15,9 +15,9 @@ logger = logging.getLogger(__name__)
 def start_scheduler(run_pipeline_fn, config: dict):
     """
     Block and run run_pipeline_fn every day at upload_time.
-    upload_time format: "HH:MM" in 24h (e.g. "09:00")
+    upload_time format: "HH:MM" in 24h (e.g. "10:30")
     """
-    upload_time = config.get("upload_time", "09:00")
+    upload_time = config.get("upload_time", "10:30")
     logger.info(f"Scheduler started. Daily upload at {upload_time} IST")
     print(f"\n✅ Scheduler running. Will upload daily at {upload_time} IST")
     print("Press Ctrl+C to stop.\n")
